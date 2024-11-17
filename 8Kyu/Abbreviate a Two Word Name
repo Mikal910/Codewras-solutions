@@ -1,0 +1,12 @@
+function abbrevName(name){
+ let firstletter=name.charAt(0)
+ let lastword=name.split(' ')[1]
+ let last=lastword.charAt(0)
+ return firstletter.toUpperCase() + "."+ last.toUpperCase()
+  
+    // code away
+//parameters take two words and convert them into abbrevation
+//return the return should be abrev of the name 
+//examples'john doe'--> 'J.D'
+//pseudocode 
+}
